@@ -1,9 +1,13 @@
 import './App.css'
+import Game from './components/Game'
 
 function App() {
 
   return (
-    <h1 className='text-rose-600'>App</h1>
+    <section className='bg-slate-600 min-h-screen min-w-screen'>
+      <h1 className='text-center text-slate-200'>Tic Tac Toe</h1>
+      <Game />
+    </section>
   )
 }
 
